@@ -1,5 +1,5 @@
 body{
-	background: url("teste.jpeg");
+	background: black url("teste.jpeg");
 	color: white;
 	font-family: 'Cinzel', serif;
 	font-weight: 400;
@@ -16,37 +16,48 @@ strong{
 	align-items: center;
 	height: 100vh;
 }
+
+.container{
+	width: 260px;
+	height: 130px;
+}
+
 p{
 	font-size: 2em;
 }
 .formulario{
-/*	padding: 1rem;*/
-	background-color: white;
 	display: flex;
 	flex-direction: column;
 }
 
 .format_img{
+	margin-right: 8px;
 	 width:13px ;
 	 height: 13px;
 }
 
 .input_box{
+	background-color: white;
+	margin-bottom: 3px;
 	display: flex;
 	align-items: center;
 	padding: 1rem;
-	border-bottom: 2px solid black;
 }
 
 .input_box input{
 	border: none;
 }
+
 .botao{
 	padding: 10px auto;
 	width: 255px;
 	height: 40px;
+	background-color: rgb(19, 214, 36);
+	border: none;
 	
 }
 .foot{
-	font-size: 12px;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 10px;
 }
