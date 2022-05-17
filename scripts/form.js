@@ -22,6 +22,5 @@ form.addEventListener('submit', () => {
     if(login == "123" && password == "123"){
         alert('Deu boa !!!');
     }
-
 });
 
