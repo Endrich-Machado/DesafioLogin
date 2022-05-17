@@ -5,8 +5,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
 <title>Page Title</title>
-<link rel="stylesheet" href="style.css">
-</head>
+<link rel="stylesheet" href="./styles/style.css">
+
 <body>
 
 <div class="conteudo">
@@ -15,22 +15,23 @@
 		<h4>Bem-vindo ao</h4>
 		<p>DIGITAL<strong>MIND</strong></p>		
 	</div>
-	<form>
+	<form id="form">
 		<div class="formulario">	
 				<div class="input_box">				
-					<img class="format_img" src="usuario.jpg" >
-					<input type="text" placeholder="Login">
+					<img class="format_img" src="./imgs/usuario.jpg" >
+					<input id="login" type="text" placeholder="Login">
 				</div>	
 				<div class="input_box">
-					<img class="format_img" src="chave.jpg" >
-					<input type="password" placeholder="Senha">					
+					<img class="format_img" src="./imgs/chave.jpg" >
+					<input id="password" type="password" placeholder="Senha">					
 				</div>
 		</div>
 		
-		<input class="botao" type="submit" value="Acessar">
+		<input id="submit_button" class="botao" type="submit" value="Acessar">
 		<div class="foot">ESQUECEU SUA SENHA</div>
 		
 	</form>
 </div>
 </body>
+<script src="./scripts/form.js"></script>
 </html>
